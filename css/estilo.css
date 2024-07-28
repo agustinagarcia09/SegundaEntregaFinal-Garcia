@@ -1,0 +1,101 @@
+/*fondo aside*/
+.video-section {
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(192,148,128,1) 100%);
+    color: #ffffff; 
+}
+
+/*lado del aside, Div*/
+
+.fondo-div {
+    background: rgb(192,148,128);
+background: linear-gradient(0deg, rgba(192,148,128,1) 0%, rgba(0,0,0,1) 100%);
+}
+.fondo-claro {
+    background-image: url('/assects/img/png/fondo.png');
+    background-size:cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#sobrenosotros {
+    background-image: url('/assects/img/png/fondo2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+
+
+
+/*pie de pagina y tamaño de iconos*/
+
+.pieDePagina { 
+    background-color: #f5f5dc; 
+    padding: 20px 0; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.social-icon {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.social-icon img {
+    width: 30px; 
+    height: auto; 
+}
+
+/*segunda pagina, galeria*/
+.card-link {
+    text-decoration: none; 
+ }
+
+.card {
+    position: relative;
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; 
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-body {
+    text-align: center;
+}
+
+/*tercera pagina, modelos*/
+
+.fondo-modelos {
+    background-image: url(/assects/img/png/fondo2.png);
+    background-size: cover;
+}
+
+
+/*cuarta pagina, staff*/
+
+.t-img-staff {
+    width: 800px;
+    height: 890px;
+}
